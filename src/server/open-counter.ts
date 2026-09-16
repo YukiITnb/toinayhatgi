@@ -1,4 +1,5 @@
 import { createClient } from 'redis';
+import '@/server/env';
 import { parseStoredOpenCount, isOpenCount } from '@/lib/open-count';
 
 export const OPEN_COUNTER_KEY = 'toinayhatgi:opens';
